@@ -1,0 +1,14 @@
+.Notifications {
+  border: 1px solid black;
+  padding: 10px;
+  position: relative;
+  width: 300px;
+}
+
+li[data-priority="default"] {
+  color: blue;
+}
+
+li[data-priority="urgent"] {
+  color: red;
+}
